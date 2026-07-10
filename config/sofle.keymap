@@ -96,7 +96,9 @@
                       &trans  &trans     &trans      &trans         &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         layer_4 {
@@ -107,6 +109,8 @@
 &trans    &trans    &trans    &trans  &kp PAGE_DOWN  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                     &trans    &trans  &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LS(LA(COMMA)) LS(LA(PERIOD))>;
         };
 
         L4 {
