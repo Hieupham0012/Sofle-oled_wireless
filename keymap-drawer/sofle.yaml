@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   Default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, +, LSHFT, A, S, D, F, G, H, J, K, L, ;, '''', LEFT CONTROL,
-    Z, X, C, V, B, '', '', N, M, ',', ., /, RSHFT, adjust, LALT, SPACE, Layer_F, Layer_R, '', SPACE, BACKSPACE, '', RIGHT WIN]
+    Z, X, C, V, B, '', '', N, M, ',', ., /, RSHFT, Adjust, LALT, SPACE, Layer_F, Layer_R, '', SPACE, BACKSPACE, '', RIGHT WIN]
   Layer_F:
   - F1
   - F2
@@ -124,7 +124,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
+  Adjust:
   - F6
   - F7
   - F8
