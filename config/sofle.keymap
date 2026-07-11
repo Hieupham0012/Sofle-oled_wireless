@@ -103,11 +103,11 @@
 
         layer_4 {
             bindings = <
-&kp F7    &kp F8    &kp F9    &kp F10  &kp F11        &kp F12                     &trans  &trans  &trans  &trans  &trans  &trans
-&kp BSLH  &kp LBKT  &kp RBKT  &trans   &trans         &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans    &trans    &trans   &kp PAGE_UP    &kp CAPS                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans    &trans    &trans   &kp PAGE_DOWN  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                    &trans    &trans   &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans
+&kp F7    &kp F8    &kp F9    &kp F10        &kp F11        &kp F12                     &trans  &trans  &trans  &trans  &trans  &trans
+&kp BSLH  &kp LBKT  &kp RBKT  &kp LG(LS(S))  &trans         &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans    &trans    &trans         &kp PAGE_UP    &kp CAPS                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans    &trans    &trans         &kp PAGE_DOWN  &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                    &trans    &trans         &trans         &trans    &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LS(LA(COMMA)) LS(LA(PERIOD))>;
