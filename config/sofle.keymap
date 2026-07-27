@@ -116,7 +116,7 @@
 
         layer_4 {
             bindings = <
-&kp TILDE  &trans  &trans  &trans  &trans  &trans                    &trans  &trans           &trans  &kp MINUS  &kp EQUAL  &trans
+&kp TILDE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &trans  &trans           &trans  &kp MINUS  &kp EQUAL  &trans
 &trans     &trans  &trans  &trans  &trans  &trans                    &trans  &kp PRINTSCREEN  &trans  &trans     &trans     &trans
 &trans     &trans  &trans  &trans  &trans  &trans                    &trans  &trans           &trans  &trans     &trans     &trans
 &trans     &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans  &trans     &trans     &trans
